@@ -9,17 +9,20 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="addition.css" rel="stylesheet"/>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -27,7 +30,7 @@
             <div class="container">
                 <a class="navbar-brand" href="#page-top"><i class="fa-brands fa-wpexplorer"></i>My Portfolio</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
+                    menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -157,58 +160,199 @@
                             </div>
                             <button type="button" class="btn btn-info btn-block"> <i class="fa-regular fa-hand-point-up"></i><span style="color:#e91e63"><h3>Click Above!</h3></span></button>
                     </div>
+                    
+        
                 </div>
             </div>
         </section>
-        <!-- Skill Section-->
+        <!-- Progress Bar-->
         <section class="page-section bg-info text-black mb-0" id="about">
-            <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mb-5">
-                    <h2 class="page-section-heading text-center  text-black">Skills</h2>
-                    <div class="row">
-                       <div class="progress">
-                        <div class="progress-bar bg-danger" role="progress-bar" style="width:90%">Javascript</div>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">SkillSets</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            <div class="skill-set container">
+           
+                <div class="content content--mlarge skill-set__flex">
+                  <ul class="skill-set__list">
+                    <li class="skill-set__item">
                         
-                       </div>
-                       <br><br>
-                       <div class="progress">
-                        <div class="progress-bar" role="progress-bar" style="width:80%">Node JS</div>
+                      <div class="skill-set__icon"><img width="48" height="48" src="https://img.icons8.com/color/48/000000/react-native.png" alt="react-native"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">React</h4>
+                           
+                          </div>
+                          <p class="small-title small-title--skill skill-set__high">90<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p90 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img width="48" height="48" src="https://img.icons8.com/color/48/mongodb.png" alt="mongodb"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">MongoDB</h4>
+                          
+                          </div>
+                          <p class="small-title small-title--skill">80<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p80 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                        <div class="skill-set__icon"><img width="64" height="64" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-sql-computer-programming-flaticons-lineal-color-flat-icons.png" alt="external-sql-computer-programming-flaticons-lineal-color-flat-icons"/></div>
+                        <div class="skill-set__detail">
+                          <div class="skill-set__meta">
+                            <div class="skill-set__name">
+                              <h4 class="small-title small-title--skill">MYSQL</h4>
+                           
+                            </div>
+                            <p class="small-title small-title--skill">70<span class="skill-set__ratio">%</span></p>
+                          </div>
+                          <div class="skill-set__bar p70 js-scroll in"></div>
+                        </div>
+                      </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img width="100" height="100" src="https://img.icons8.com/plasticine/100/postgreesql.png" alt="postgreesql"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">PostGreSQL</h4>
+                            
+                          </div>
+                          <p class="small-title small-title--skill">80<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p80 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img width="100" height="100" src="https://img.icons8.com/color/100/bootstrap--v1.png" alt="bootstrap--v1"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">Bootstrap</h4>
                         
-                       </div>
-                       <br><br>
-                       <div class="progress">
-                        <div class="progress-bar bg-warning" role="progress-bar " style="width:70%">RESUful API</div>
-                        
-                       </div>
-                       <br><br>
-                       <div class="progress">
-                        <div class="progress-bar bg-primary" role="progress-bar" style="width:90%">Java</div>
-                        
-                       </div>
-                    <br><br>
-                       <div class="progress">
-                        <div class="progress-bar bg-success" role="progress-bar" style="width:30%">Mongo DB</div>
-                        
-                       </div>
+                          </div>
+                          <p class="small-title small-title--skill">70<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p70 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img width="48" height="48" src="https://img.icons8.com/color/48/nodejs.png" alt="nodejs"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">NodeJS</h4>
                        
-                    </div>
+                          </div>
+                          <p class="small-title small-title--skill">50<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p50 js-scroll in"></div>
+                      </div>
+                    </li>
+                  </ul>
+                  <ul class="skill-set__list">
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/html.svg" alt="HTML/CSS"></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">HTML/CSS</h4>
+                            
+                          </div>
+                          <p class="small-title small-title--skill skill-set__high">90<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p90 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img width="48" height="48" src="https://img.icons8.com/color/48/express-js.png" alt="express-js"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">Express</h4>
+                           
+                          </div>
+                          <p class="small-title small-title--skill">80<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p80 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img width="64" height="64" src="https://img.icons8.com/dusk/64/postman-api.png" alt="postman-api"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">PostMan API</h4>
+                         
+                          </div>
+                          <p class="small-title small-title--skill">70<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p70 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                        <div class="skill-set__icon"><img width="48" height="48" src="https://img.icons8.com/color/48/clr_ejs_1.png" alt="clr_ejs_1"/></div>
+                        <div class="skill-set__detail">
+                          <div class="skill-set__meta">
+                            <div class="skill-set__name">
+                              <h4 class="small-title small-title--skill">Embedded JS</h4>
+                           
+                            </div>
+                            <p class="small-title small-title--skill">70<span class="skill-set__ratio">%</span></p>
+                          </div>
+                          <div class="skill-set__bar p70 js-scroll in"></div>
+                        </div>
+                      </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img width="48" height="48" src="https://img.icons8.com/color/48/power-bi.png" alt="power-bi"/></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">PowerBI</h4>
+                            
+                          </div>
+                          <p class="small-title small-title--skill">70<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p70 js-scroll in"></div>
+                      </div>
+                    </li>
+                    <li class="skill-set__item">
+                      <div class="skill-set__icon"><img src="http://www.webcoderskull.com/img/icon/js.svg" alt="Javascript"></div>
+                      <div class="skill-set__detail">
+                        <div class="skill-set__meta">
+                          <div class="skill-set__name">
+                            <h4 class="small-title small-title--skill">Javascript</h4>
+                            
+                          </div>
+                          <p class="small-title small-title--skill">60<span class="skill-set__ratio">%</span></p>
+                        </div>
+                        <div class="skill-set__bar p60 js-scroll in"></div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
-                <div class="col-lg-6 mb-5">
-                    <h2 class="page-section-heading text-center  text-black">My Aim!</h2>
-                    <div class="row">
-                        <div class=" ms-auto"><p class="lead">Currently, i am learning and applying the latest technologies and frameworks for creating dynamic and responsive websites and tools. I am also learing Micorsoft Azure for deploying mhy website and to test its fuctionalities.</p></div>
-                        <div class=" me-auto"><p class="lead">I invite you to collaborate with Me. Message  me through my linkedIn for creating Your own personal portfolio </p></div>
-                    </div>  
-                </div>
-            </div>
             </div>
         </section>
+
+
         <section class="bg-info">
             <div class="container py-5">
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Education</h2>
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
               <div class="main-timeline">
                 <div class="timeline left">
-                  <div class="card">
+                  <div class="card btn-outline-light ">
                     <div class="card-body p-4">
                       <h3>2019 <span> 10TH ICSE</span></h3>
                       <p class="mb-0">During my tenth standard in my school there was a heavy competition of scoring marks. I secured 91% in my board Exams</p>
@@ -216,7 +360,7 @@
                   </div>
                 </div>
                 <div class="timeline right">
-                  <div class="card">
+                  <div class="card bg-primary">
                     <div class="card-body p-4">
                       <h3>2020 <span>12TH ISC</span></h3>
                       <p class="mb-0">My 12th was a tough journey because we were compelled to be house arrest due to the COVID-19 Pandemic Lockdown. My 12th exams were cancelled and calculated based on our previous exam performances. From that I secured about 84 percentage.</p>
@@ -224,7 +368,7 @@
                   </div>
                 </div>
                 <div class="timeline left">
-                  <div class="card">
+                  <div class="card bg-warning">
                     <div class="card-body p-4">
                       <h3>2021 <span>PSNACET 1ST Year</span></h3>
                       <p class="mb-0">Prepared for Joint Entrance Exam From an edu tech company BYJUS. After three attempts, my score was maximum of 74 percentile, where I failed badly and got devastated from inside. Joined PSNA COLLEGE OF ENGINEERING AND TECHNOLOGY pursuing Electronics and Communication Engineering</p>
@@ -233,7 +377,7 @@
                   </div>
                 </div>
                 <div class="timeline right">
-                  <div class="card">
+                  <div class="card bg-danger">
                     <div class="card-body p-4">
                       <h3>2022 <span> PSNACET 2ND YEAR</span></h3>
                       <p class="mb-0">During my Engineering , 1st sem Score was 8.5 in terms of GPA. Again I utterly flopped in my second Sem with a GPA of 7.6. During my third Sem , I gave a comeback by obtaining a GPA of 9.0 </p>
@@ -241,7 +385,7 @@
                   </div>
                 </div>
                 <div class="timeline left">
-                  <div class="card">
+                  <div class=" bg-success">
                     <div class="card-body p-4">
                       <h3>2023 <span> PSNACET 3RD YEAR</span></h3>
                       <p class="mb-0">Angela udemy course for Full stack web development helped me a lot in fueling my passion in learning programming languages. I learned various backend programming languages like Javascript , SQL, MongoDB</p>
@@ -377,7 +521,7 @@
                                     <a href='https://postimg.cc/hzXRZQV8' target='_blank'><img  class="img-fluid" src='https://i.postimg.cc/qRLBR8RF/Certificate-of-Completion.png' border='0' alt='Certificate-of-Completion'/></a>
 
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4"> I've learned to operate through the BIOS, perform power-on self-tests (POST), and install various Windows operating systems..</p>
+                                    <p class="mb-4"> This is a Hands on Practical course that I've started to learn to explore the hardware part of the engineering dealing with the electrical and electronic components. This institute is located in Madurai, named as electron and it is operating for more than 38 Years, where its administration is undertaken by its principal MR.Dilip. During this course I have learned to operate through the BIOS, perform power-on self-tests (POST), and install various Windows operating systems. I had learned to sepeate of components of the laptop and reassamble it.  I have also learned about the various faults that arise in the computer and laptop and how to rectify it. Also i have learned how to install the missing drivers while updating an os and how to troubleshoot various system problems.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -410,7 +554,7 @@
                                     <a href='https://postimg.cc/cg3h9dkk' target='_blank'><img class=" img-fluid" src='https://i.postimg.cc/KzqWYzPb/Responsive-web-design.jpg' border='0' alt='Responsive-web-design'/></a>
 
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">During This FreeCodeCamp Course, I had learned about HTML AND CSS in detail through intense practice. They had offered more than 100 sums to practice. Finally they give me 5 certification front end projects for getting my certiciate </p>
+                                    <p class="mb-4">During This FreeCodeCamp Course, I had learned about HTML AND CSS in detail through intense practice. They had offered more than 100 sums to practice.Each sum had an intense depth of concept to explain. They gave the explaination to each concept and required practice sessions side by side in order to gain a good pracice.  Finally they give me 5 certification front end projects for getting my certiciate </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -554,6 +698,199 @@
                                         Multithreading: Java provides built-in support for multithreading, allowing concurrent execution of multiple threads, enhancing the performance of applications.
                                         
                                         Rich Standard Library: Java comes with a vast standard library that provides a wide range of utilities, making it convenient for developers to perform various tasks without having to write extensive code.
+                                       </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+                <!-- Portfolio Modal 5-->
+                <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Java Programming</h2>
+                                            <!-- Icon Divider-->
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <!-- Portfolio Modal - Image-->
+                                            <a href='https://postimg.cc/xcNsBMwf' target='_blank'><img class=" img-fluid" src='https://i.postimg.cc/RVXj6TGH/java-basic-certificate.png' border='0' alt='java-basic-certificate'/></a>
+        
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">  Object-Oriented: Java is a strictly object-oriented programming language. Everything in Java is treated as an object, making it easy to model real-world entities and their behaviors.
+        
+                                                Platform-Independent: One of the key features of Java is its "Write Once, Run Anywhere" (WORA) capability. Java code can be written on one platform and executed on any other platform with a Java Virtual Machine (JVM).
+                                                
+                                                Syntax Similar to C/C++: Java's syntax is similar to C and C++, which makes it relatively easy for developers familiar with these languages to pick up Java quickly.
+                                                
+                                                2. Key Features:
+                                                
+                                                Automatic Memory Management: Java uses a garbage collector to automatically manage memory, reducing the risk of memory leaks and making it easier for developers to focus on writing code.
+                                                
+                                                Multithreading: Java provides built-in support for multithreading, allowing concurrent execution of multiple threads, enhancing the performance of applications.
+                                                
+                                                Rich Standard Library: Java comes with a vast standard library that provides a wide range of utilities, making it convenient for developers to perform various tasks without having to write extensive code.
+                                                 </p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Java Programming</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <a href='https://postimg.cc/xcNsBMwf' target='_blank'><img class=" img-fluid" src='https://i.postimg.cc/RVXj6TGH/java-basic-certificate.png' border='0' alt='java-basic-certificate'/></a>
+
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">  Object-Oriented: Java is a strictly object-oriented programming language. Everything in Java is treated as an object, making it easy to model real-world entities and their behaviors.
+
+                                        Platform-Independent: One of the key features of Java is its "Write Once, Run Anywhere" (WORA) capability. Java code can be written on one platform and executed on any other platform with a Java Virtual Machine (JVM).
+                                        
+                                        Syntax Similar to C/C++: Java's syntax is similar to C and C++, which makes it relatively easy for developers familiar with these languages to pick up Java quickly.
+                                        
+                                        2. Key Features:
+                                        
+                                        Automatic Memory Management: Java uses a garbage collector to automatically manage memory, reducing the risk of memory leaks and making it easier for developers to focus on writing code.
+                                        
+                                        Multithreading: Java provides built-in support for multithreading, allowing concurrent execution of multiple threads, enhancing the performance of applications.
+                                        
+                                         Rich Standard Library: Java comes with a vast standard library that provides a wide range of utilities, making it convenient for developers to perform various tasks without having to write extensive code.
+                                      </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+                <!-- Portfolio Modal 5-->
+                <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Java Programming</h2>
+                                            <!-- Icon Divider-->
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <!-- Portfolio Modal - Image-->
+                                            <a href='https://postimg.cc/xcNsBMwf' target='_blank'><img class=" img-fluid" src='https://i.postimg.cc/RVXj6TGH/java-basic-certificate.png' border='0' alt='java-basic-certificate'/></a>
+        
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">  Object-Oriented: Java is a strictly object-oriented programming language. Everything in Java is treated as an object, making it easy to model real-world entities and their behaviors.
+        
+                                                Platform-Independent: One of the key features of Java is its "Write Once, Run Anywhere" (WORA) capability. Java code can be written on one platform and executed on any other platform with a Java Virtual Machine (JVM).
+                                                
+                                                Syntax Similar to C/C++: Java's syntax is similar to C and C++, which makes it relatively easy for developers familiar with these languages to pick up Java quickly.
+                                                
+                                                2. Key Features:
+                                                
+                                                Automatic Memory Management: Java uses a garbage collector to automatically manage memory, reducing the risk of memory leaks and making it easier for developers to focus on writing code.
+                                                
+                                                Multithreading: Java provides built-in support for multithreading, allowing concurrent execution of multiple threads, enhancing the performance of applications.
+                                                
+                                                Rich Standard Library: Java comes with a vast standard library that provides a wide range of utilities, making it convenient for developers to perform various tasks without having to write extensive code.
+            </p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Java Programming</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <a href='https://postimg.cc/xcNsBMwf' target='_blank'><img class=" img-fluid" src='https://i.postimg.cc/RVXj6TGH/java-basic-certificate.png' border='0' alt='java-basic-certificate'/></a>
+
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">  Object-Oriented: Java is a strictly object-oriented programming language. Everything in Java is treated as an object, making it easy to model real-world entities and their behaviors.
+
+                                        Platform-Independent: One of the key features of Java is its "Write Once, Run Anywhere" (WORA) capability. Java code can be written on one platform and executed on any other platform with a Java Virtual Machine (JVM).
+                                        
+                                        Syntax Similar to C/C++: Java's syntax is similar to C and C++, which makes it relatively easy for developers familiar with these languages to pick up Java quickly.
+                                        
+                                        2. Key Features:
+                                        
+                                        Automatic Memory Management: Java uses a garbage collector to automatically manage memory, reducing the risk of memory leaks and making it easier for developers to focus on writing code.
+                                        
+                                        Multithreading: Java provides built-in support for multithreading, allowing concurrent execution of multiple threads, enhancing the performance of applications.
+                                        
+                                        Rich Standard Library: Java comes with a vast standard library that provides a wide range of utilities, making it convenient for developers to perform various tasks without having to write extensive code.
     </p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
@@ -566,6 +903,110 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+                <!-- Portfolio Modal 5-->
+                <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Java Programming</h2>
+                                            <!-- Icon Divider-->
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <!-- Portfolio Modal - Image-->
+                                            <a href='https://postimg.cc/xcNsBMwf' target='_blank'><img class=" img-fluid" src='https://i.postimg.cc/RVXj6TGH/java-basic-certificate.png' border='0' alt='java-basic-certificate'/></a>
+        
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">  Object-Oriented: Java is a strictly object-oriented programming language. Everything in Java is treated as an object, making it easy to model real-world entities and their behaviors.
+        
+                                                Platform-Independent: One of the key features of Java is its "Write Once, Run Anywhere" (WORA) capability. Java code can be written on one platform and executed on any other platform with a Java Virtual Machine (JVM).
+                                                
+                                                Syntax Similar to C/C++: Java's syntax is similar to C and C++, which makes it relatively easy for developers familiar with these languages to pick up Java quickly.
+                                                
+                                                2. Key Features:
+                                                
+                                                Automatic Memory Management: Java uses a garbage collector to automatically manage memory, reducing the risk of memory leaks and making it easier for developers to focus on writing code.
+                                                
+                                                Multithreading: Java provides built-in support for multithreading, allowing concurrent execution of multiple threads, enhancing the performance of applications.
+                                                
+                                                Rich Standard Library: Java comes with a vast standard library that provides a wide range of utilities, making it convenient for developers to perform various tasks without having to write extensive code.
+            </p>
+                                            <button class="btn btn-primary" data-bs-dismiss="modal">
+                                                <i class="fas fa-xmark fa-fw"></i>
+                                                Close Window
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Java Programming</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <a href='https://postimg.cc/xcNsBMwf' target='_blank'><img class=" img-fluid" src='https://i.postimg.cc/RVXj6TGH/java-basic-certificate.png' border='0' alt='java-basic-certificate'/></a>
+
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">  Object-Oriented: Java is a strictly object-oriented programming language. Everything in Java is treated as an object, making it easy to model real-world entities and their behaviors.
+
+                                        Platform-Independent: One of the key features of Java is its "Write Once, Run Anywhere" (WORA) capability. Java code can be written on one platform and executed on any other platform with a Java Virtual Machine (JVM).
+                                        
+                                        Syntax Similar to C/C++: Java's syntax is similar to C and C++, which makes it relatively easy for developers familiar with these languages to pick up Java quickly.
+                                        
+                                        2. Key Features:
+                                        
+                                        Automatic Memory Management: Java uses a garbage collector to automatically manage memory, reducing the risk of memory leaks and making it easier for developers to focus on writing code.
+                                        
+                                        Multithreading: Java provides built-in support for multithreading, allowing concurrent execution of multiple threads, enhancing the performance of applications.
+                                        
+                                        Rich Standard Library: Java comes with a vast standard library that provides a wide range of utilities, making it convenient for developers to perform various tasks without having to write extensive code.
+    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Portfolio Modal 6-->
         <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -599,6 +1040,14 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
